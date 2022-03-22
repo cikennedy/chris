@@ -48,3 +48,15 @@ section{
     top: 0;
     padding: 3rem 18rem;
 }
+
+.section{
+    transform: translateY(-100%);
+    transition: all .4s ease-in-out;
+    background-color: var(--color-primary);
+}
+
+.sec1{
+    display: none;
+    transform: translateY(0) scale(1);
+
+}
