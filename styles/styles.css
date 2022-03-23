@@ -292,6 +292,7 @@ section {
 
 .main-btn .btn-icon {
   border: 1px solid var(--color-secondary);
+  background-color: var(--color-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
