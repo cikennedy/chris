@@ -294,6 +294,41 @@ section {
   border: 1px solid var(--color-secondary);
 }
 
+.about-container .right-about .about-item .about-text {
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-container .right-about .about-item .about-text .large-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.about-container .right-about .about-item .about-text .small-text {
+  padding-left: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--color-grey-1);
+  letter-spacing: 2px;
+}
+
+.about-container .right-about .about-item .about-text .small-text:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  height: 2px;
+  background-color: var(--color-grey-5);
+}
+
 .btn-con {
   display: -webkit-box;
   display: -ms-flexbox;
