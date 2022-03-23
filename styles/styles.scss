@@ -17,6 +17,7 @@
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
     --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,0.2)
 }
 
 body{
@@ -86,4 +87,27 @@ section{
     z-index: 10;
     top: 50%;
     right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    .control{
+        padding: 1rem;
+        cursor: pointer;
+        background-color: var(--color-grey-4);
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.7rem 0;
+        box-shadow: var(--box-shadow-1);
+        i{
+            font-size: 1.2rem;
+            color: var(--color-grey-2);
+            pointer-events: none;
+        }
+    }
 }
