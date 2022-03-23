@@ -291,6 +291,7 @@ section {
   cursor: default;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+  border: 1px solid var(--color-secondary);
 }
 
 .btn-con {
