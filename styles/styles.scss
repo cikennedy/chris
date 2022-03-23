@@ -59,31 +59,26 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(50, 23, 223);
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(223, 23, 200);
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(23, 203, 223);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(23, 223, 30);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(213, 223, 23);
 }
 
 .active{
@@ -136,3 +131,29 @@ section{
         }
     }
 }
+
+// header content 
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    .left-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .h-shape{
+            transition: all 0.4s ease-in-out;
+            width: 65%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            // clip path generator - custom shapes
+            // clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+        }
+    }
+}
+
+// independent components
