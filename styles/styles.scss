@@ -284,9 +284,23 @@ section{
                         top: 0;
                         left: 0;
                         height: 100%;
-                        width: 90%;
                         background-color: var(--color-secondary);
                         transition: all 0.4s ease-in-out;
+                    }
+                    .html{
+                        width: 90%;
+                    }
+                    .css{
+                        width: 85%;
+                    }
+                    .javascript{
+                        width: 80%;
+                    }
+                    .react{
+                        width: 75%;
+                    }
+                    .full-stack{
+                        width: 100%;
                     }
                 }
             }

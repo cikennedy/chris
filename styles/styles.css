@@ -397,10 +397,29 @@ section {
   top: 0;
   left: 0;
   height: 100%;
-  width: 90%;
   background-color: var(--color-secondary);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .html {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .css {
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .javascript {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .react {
+  width: 75%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-container .progress .full-stack {
+  width: 100%;
 }
 
 .btn-con {
