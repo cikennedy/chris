@@ -326,7 +326,7 @@ section{
     }
 }
 
-// Timeline and Projects
+// Timeline
 .timeline{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -417,6 +417,12 @@ section{
                 font-size: 1.5rem;
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
+            }
+            .item-description{
+                margin-bottom: 1.5rem;
+                color: var(--color-grey-2);
+                font-size: 1.1rem;
+                padding: 10px;
             }
             .icons{
                 display: flex;
