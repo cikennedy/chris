@@ -14,5 +14,9 @@
         justify-content: center;
         left: 50%;
         transform: translateX(-50%);
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 1rem 0.3rem;
+        }
     }
 }

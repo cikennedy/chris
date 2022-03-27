@@ -1017,6 +1017,10 @@ section {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    background-color: var(--color-grey-5);
+  }
+  .controls .control {
+    margin: 1rem 0.3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
