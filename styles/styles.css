@@ -1004,6 +1004,10 @@ section {
   header .right-header {
     padding: 2rem !important;
   }
+  .theme-button {
+    width: 50px;
+    height: 50px;
+  }
   .controls {
     top: auto;
     bottom: 0;
