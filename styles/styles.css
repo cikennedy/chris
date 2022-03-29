@@ -52,9 +52,15 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
+}
+
+@media screen and (max-width: 610px) {
+  header {
+    min-height: 100vh;
+  }
 }
 
 section {
@@ -1044,6 +1050,7 @@ section {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     background-color: var(--color-grey-5);
+    width: 100%;
   }
   .controls .control {
     margin: 1rem 0.3rem;
