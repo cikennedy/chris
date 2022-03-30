@@ -1036,6 +1036,15 @@ section {
     margin: 0 auto;
     width: 90%;
   }
+  .about-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about-container .right-about {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-top: 2.5rem;
+  }
   .controls {
     top: auto;
     bottom: 0;
