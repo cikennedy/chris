@@ -48,6 +48,12 @@
 
 }
 
+@media screen and (max-width: 1592px){
+    .contact-content .left-contact .contact-info .contact-item p #email-address{
+        font-size: 0.9rem;
+    }
+}
+
 @media screen and (max-width: 1432px){
     header{
         padding: 0 !important;
