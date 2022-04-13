@@ -309,6 +309,10 @@ section {
   font-size: 3rem;
 }
 
+.header-content .right-header .name .title-h2 {
+  color: var(--color-secondary);
+}
+
 .header-content .right-header .name span {
   color: var(--color-secondary);
 }
