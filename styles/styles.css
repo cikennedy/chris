@@ -162,8 +162,8 @@ section {
 
 .controls .active-btn {
   background-color: var(--color-secondary) !important;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .controls .active-btn i {
@@ -309,11 +309,11 @@ section {
   font-size: 3rem;
 }
 
-.header-content .right-header .name .title-h2 {
+.header-content .right-header .name span {
   color: var(--color-secondary);
 }
 
-.header-content .right-header .name span {
+.header-content .right-header .title-h2 {
   color: var(--color-secondary);
 }
 
