@@ -37,7 +37,13 @@ function pageTransitions() {
     }
   });
 
-  const themeButton = document.querySelector(".theme-button");
+  // const themeButton = document.querySelector(".theme-button");
+  // themeButton.addEventListener("click", () => {
+  //   let element = document.body;
+  //   element.classList.toggle("light-mode");
+  // });
+
+  const themeButton = document.querySelector(".theme-button-test");
   themeButton.addEventListener("click", () => {
     let element = document.body;
     element.classList.toggle("light-mode");
