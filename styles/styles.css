@@ -367,7 +367,7 @@ section {
 }
 
 .about-container .right-about .about-item .about-text .large-text {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
