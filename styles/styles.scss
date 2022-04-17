@@ -182,7 +182,7 @@ section{
         align-items: center;
         position: relative;
         .h-shape{
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             width: 65%;
             height: 100%;
             background-color: var(--color-secondary);
@@ -199,13 +199,13 @@ section{
             width: 68%;
             margin-left: 4rem;
             background-color: var(--color-grey-6);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             img{
                 border-radius: 10px;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                transition: all 0.4s ease-in-out;
+                transition: all 0.2s ease-in-out;
                 filter: grayscale(100%);
                 &:hover{
                     filter: grayscale(0);
@@ -248,7 +248,7 @@ section{
         .about-item{
             border: 1px solid var(--color-grey-5);
             border-radius: 5px;
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             box-shadow: 1px 2px 15px rgba(0,0,0,0.1);
             &:hover{
                 cursor: default;
@@ -329,7 +329,7 @@ section{
                         left: 0;
                         height: 100%;
                         background-color: var(--color-secondary);
-                        transition: all 0.4s ease-in-out;
+                        transition: all 0.2s ease-in-out;
                     }
                     .html{
                         width: 90%;
@@ -457,7 +457,7 @@ section{
             opacity: 0;
             scale: 0;
             transform: scale(0);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             h3{
                 font-size: 1.5rem;
                 color: var(--color-white);
@@ -485,7 +485,7 @@ section{
                     justify-content: center;
                     margin: 5px 1rem;
                     cursor: pointer;
-                    transition: all 0.4s ease-in-out;
+                    transition: all 0.2s ease-in-out;
                     i{
                         font-size: 1.5rem;
                         color: var(--color-white);
@@ -519,11 +519,11 @@ section{
         background-color: var(--color-grey-5);
         border-radius: 5px;
         box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
         &:hover{
             box-shadow: 1px 1px 20px rgba(0,0,0,0.3);
             transform: translateY(-5px);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             img{
                 filter: grayscale(0);
                 transform: scale(1.1);
@@ -537,7 +537,7 @@ section{
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             filter: grayscale(100%);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
         }
         .blog-text{
             margin-top: -7px;
@@ -546,7 +546,7 @@ section{
             h4{
                 font-size: 1.5rem;
                 margin-bottom: 0.7rem;
-                transition: all 0.4s ease-in-out;
+                transition: all 0.2s ease-in-out;
                 cursor: pointer;
                 &:hover{
                     color: var(--color-secondary);
@@ -610,7 +610,7 @@ section{
                 height: 50px;
                 border-radius: 50%;
                 margin: 0 0.4rem;
-                transition: all 0.4s ease-in-out;
+                transition: all 0.2s ease-in-out;
                 &:hover{
                     background-color: var(--color-secondary);
                     i{
@@ -691,7 +691,7 @@ section{
         top: 0;
         right: 0;
         transform: translateX(100%);
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
         z-index: -1;
     }
     &:hover{
@@ -700,7 +700,7 @@ section{
             height: 100%;
             background-color: var(--color-secondary);
             transform: translateX(0);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
         }
     }
 }
@@ -720,7 +720,7 @@ section{
             top: 50%;
             left: 50%;
             color: var(--color-grey-5);
-            transition: all 0.4s ease-in-out;
+            transition: all 0.2s ease-in-out;
             z-index: -1;
             transform: translate(-50%, -50%);
             font-weight: 800;
