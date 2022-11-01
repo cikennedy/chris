@@ -745,6 +745,10 @@ section {
   padding: 0 !important;
 }
 
+.contact-content .left-contact .contact-info .contact-item a:hover {
+  color: var(--color-secondary);
+}
+
 .contact-content .left-contact .contact-info .contact-item .icon {
   display: -ms-grid;
   display: grid;
@@ -760,6 +764,10 @@ section {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.3rem;
+}
+
+.contact-content .left-contact .contact-info .contact-item .icon i:hover {
+  color: var(--color-secondary);
 }
 
 .contact-content .left-contact .contact-icon {

@@ -533,6 +533,10 @@ section{
                 a{
                     margin: 0.3rem 0 !important;
                     padding: 0 !important;
+                    &:hover{
+                        color: var(--color-secondary);
+                    }
+                    
                 }
                 .icon{
                     display: grid;
@@ -541,6 +545,9 @@ section{
                         display: flex;
                         align-items: center;
                         font-size: 1.3rem;
+                        &:hover{
+                            color: var(--color-secondary);
+                        }
                     }
                 }
             }
