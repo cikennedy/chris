@@ -766,10 +766,6 @@ section {
   font-size: 1.3rem;
 }
 
-.contact-content .left-contact .contact-info .contact-item .icon i:hover {
-  color: var(--color-secondary);
-}
-
 .contact-content .left-contact .contact-icon {
   display: -webkit-box;
   display: -ms-flexbox;
