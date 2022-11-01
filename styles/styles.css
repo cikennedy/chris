@@ -740,6 +740,11 @@ section {
   padding: 0 !important;
 }
 
+.contact-content .left-contact .contact-info .contact-item a {
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
+}
+
 .contact-content .left-contact .contact-info .contact-item .icon {
   display: -ms-grid;
   display: grid;
