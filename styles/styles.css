@@ -766,6 +766,10 @@ section {
   font-size: 1.3rem;
 }
 
+.contact-content .left-contact #email-address {
+  font-size: 0.75rem;
+}
+
 .contact-content .left-contact .contact-icon {
   display: -webkit-box;
   display: -ms-flexbox;
